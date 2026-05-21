@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(rtk grep *)",
+      "Bash(xargs -I{} grep -A 10 \"V1A\\\\|V2A\" {})",
+      "Bash(xargs -I{} grep -B2 -A8 \"\\\\[r1\\\\]\\\\|\\\\[r2\\\\]\" {})",
+      "WebFetch(domain:www.chordpro.org)"
+    ]
+  }
+}
